@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget xmlns="http://openajax.org/metadata" spec="1.0" name="hipo_Flash_Canvas" version="1">
+
+<description type="text/html"><![CDATA[Widget Exported from Flash Professional]]></description>
+
+<category name="Flash Animation"/>
+<remarks>Compatible with: InDesign CC, Dreamweaver CC, Muse</remarks>
+<icon src="PosterImg_909.png" width="550" height="400"/>
+<require type="other" src="hipo_Flash_Canvas.html"/>
+<require type="javascript" src="hipo_Flash_Canvas.js"/>
+<require type="javascript" src="components/anwidget.js"/>
+<require type="javascript" src="components/ui/src/button.js"/>
+<require type="javascript" src="components/video/src/video.js"/>
+<require type="other" src="videos/hipo_Flash.mp4"/>
+<require type="folder" src="components"/>
+<require type="folder" src="components/ui"/>
+<require type="folder" src="components/video"/>
+<require type="folder" src="videos"/>
+<content></content>
+
+<properties name="Properties">
+<property name="default-width" defaultValue="550" hidden="true"/>
+<property name="default-height" defaultValue="400" hidden="true"/>
+<property name="resizable" defaultValue="false" hidden="true"/>
+<property name="centering" defaultValue="" hidden="true"/>
+<property name="scaling" defaultValue="" hidden="true"/>
+<property name="html-page" defaultValue="hipo_Flash_Canvas.html" hidden="true"/>
+<property name="target-platform" defaultValue="htmlcanvas" hidden="true"/>
+<property name="created-in" defaultValue="Adobe Animate CC" hidden="true"/>
+</properties>
+
+</widget>
